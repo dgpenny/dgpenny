@@ -1,0 +1,29 @@
+@charset "iso-8859-1";
+
+
+a:link {background-color: #fdfdff; color: #66FF00; font-size: 11pt; font-weight: bold; text-decoration: none; border-bottom: 1px blue dotted}
+
+a:visited {background-color: #fdfdff; color: purple; font-size: 11pt; font-weight: bold; text-decoration: none; border-bottom: 1px blue dotted}
+
+a:hover {background-color: #0033cc; text-decoration: none; font-weight: bold; color: yellow}
+
+.textREG {background: #0033CC; font-family: arial,helvetica,sans-serif; font-size: 12pt;color: #ffffcc;}
+
+.textMED {background:  #0033CC; color: #FFFFCC; font-family:  arial,helvetica,sans-serif; font-size: 16pt}
+
+.textLG {background: #0033CC; font-family: arial,helvetica,sans-serif; font-size: 26pt; font-weight: bold; color: #66ff00;}
+
+.header1 {background: #0033CC; font-family: arial,helvetica,sans-serif; font-size: 10pt; color: #66ff00; font-weight: bold;}
+
+P {background: #0033CC; font-family: arial,helvetica,sans-serif; font-size: 10pt;color: #ffffcc;}
+
+body {background-color: #0033cc; color: #ffffcc; font-family:  arial,helvetica,sans-serif; font-size: 20pt; overflow:auto;}
+
+.header2 {color: #66ff00; background-color: #0033CC; font-family:  arial,helvetica,sans-serif; font-size: 20pt; font-weight: bold}
+
+/* force right scrollbar */
+html { 
+    height: 100%;
+    margin-bottom: 1px;
+}
+

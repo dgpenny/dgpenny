@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Nifty Modal Window Effects</title>
+<meta name="description" content="Nifty Modal Window Effects with CSS Transitions and Animations" />
+<meta name="keywords" content="modal, window, overlay, modern, box, css transition, css animation, effect, 3d, perspective" />
+<meta name="author" content="Codrops" />
+<link rel="shortcut icon" href="../favicon.ico"> 
+<link rel="stylesheet" type="text/css" href="default_ME.css" />
+<link rel="stylesheet" type="text/css" href="component.css" />
+<script src="modernizr.custom.js"></script>
+<script type="text/javascript">       
+//This is done to make the following JavaScript code compatible to XHTML. <![CDATA[  
+function Certifyalert()      
+{      
+if(document.Form1.checkbox4.checked == true)      
+{      
+alert("You have certified.");      
+}      
+}       
+function Applealert()      
+{      
+if(document.Form1.checkbox1.checked == true)      
+{      
+alert("You have clicked on Apple.");      
+}      
+}      
+function Orangealert()      
+{      
+if(document.Form1.checkbox2.checked == true)      
+{      
+alert("You have clicked on Orange.");      
+}    
+} 
+function Checkalert()      
+{      
+if(document.Form1.checkbox3.checked == true)      
+{      
+alert("You have clicked on Check me too!");      
+}       
+} 
+//]]>       
+</script> 
+
+</head>
+<body>
+		
+<!-- All modals added here for the demo. You would of course just have one, dynamically created -->
+
+		<div class="md-modal md-effect-13" id="modal-13">
+			<div class="md-content">
+				<h3>Modal Dialog</h3>
+				<div>
+					<p>This is a modal window. You can do the following things with it:</p>
+					<ul>
+						<li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+						<li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+						<li><strong>Close:</strong> click on the button below to close the modal.</li>
+					</ul>
+					<button class="md-close">Close me!</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				<!--<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/DynamicGrid/"><span></span></a>
+				<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=15313"><span></span></a></span>
+                -->			
+			</div>
+			<header>
+				<h1>Nifty Modal Window Effect 
+				<span></span></h1>
+				<div class="main clearfix">
+				<p></p>
+				<button class="md-trigger" data-modal="modal-13">Click me!</button>
+				</div>
+			</header>
+		</div><!-- /container -->
+		<hr /> 
+		<table align=center width="100%" border="0" cellspacing="0" summary="">
+     <tr>
+      <td align=center width="450">&nbsp;</td>
+     </tr>
+    </table>
+<!--		<div class="course-quiz-honor-code">
+        <label class="checkbox">
+        <input type="checkbox">
+        I (Daryl G. Penny) certify that the answers here are my own work.        
+		<span class="course-quiz-honor-code-thanks" style="display:none;">Thank you!</span>
+        </label>
+        </div> 
+-->
+		<table>&nbsp;</table>
+		<hr />
+		
+<table>&nbsp;</table>		
+<table align=center width="100%" border="0" cellspacing="0" summary="">
+     <tr>
+      <td align=center width="35%"></td>
+      <td align=left width="40%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  Select a checkbox below:<p></p>		
+<form name="Form1" style="color: white ; font-size: 100%" action = "#">   
+<input type="checkbox"       
+name="checkbox4"        
+onclick = "Certifyalert()" />I certify that the answers here are my own work.     
+<br />      
+<input type="checkbox"       
+name="checkbox1"        
+onclick = "Applealert()" />Apple       
+<br />  
+<input type="checkbox"       
+name="checkbox2"       
+onclick = "Orangealert()" />Orange 
+<br /> 
+<input type="checkbox"       
+name="checkbox3"        
+onclick = "Checkalert()" />Check me too!    
+</td>
+<td align=center width="25%">&nbsp;</td>
+</form>
+</tr>
+    </table>
+<table>&nbsp;</table>
+<table align=center width="100%" border="0" cellspacing="0" summary="">
+     <tr>
+      <td align=center width="450">Site last updated: 7/3/13</td>
+     </tr>
+    </table>
+
+
+
+		<div class="md-overlay"></div><!-- the overlay element -->
+
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="classie.js"></script>
+		<script src="modalEffects.js"></script>
+
+		<!-- for the blur effect -->
+		<!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+		<script>
+			// this is important for IEs
+			var polyfilter_scriptpath = '/js/';
+		</script>
+		<script src="cssParser.js"></script>
+		<script src="css-filters-polyfill.js"></script>
+</body>
+</html>
