@@ -1,9 +1,9 @@
 @charset "iso-8859-1";
 
 
-a:link {background-color: #0033cc; color: #66FF00; font-size: 11pt; font-weight: bold; text-decoration: none; border-bottom: 1px blue dotted}
+a:link {background-color: #0033cc; color: #66FF00; font-size: 14pt; font-weight: bold; text-decoration: none; border-bottom: 1px blue dotted}
 
-a:visited {background-color: #0033cc; color: purple; font-size: 11pt; font-weight: bold; text-decoration: none; border-bottom: 1px blue dotted}
+a:visited {background-color: #0033cc; color: purple; font-size: 14pt; font-weight: bold; text-decoration: none; border-bottom: 1px blue dotted}
 
 a:hover {background-color: #0033cc; text-decoration: none; font-weight: bold; color: yellow}
 
