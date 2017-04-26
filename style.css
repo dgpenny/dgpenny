@@ -12,9 +12,9 @@ body {
 }
 
 table.main {
-	width: 75%;
-	margin-left:auto; 
-        margin-right:auto;
+	width: 70%;
+	margin-left:15%; 
+        margin-right:10%;
 }
 
 table.sub {
