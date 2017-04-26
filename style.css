@@ -11,8 +11,12 @@ body {
 
 }
 
-table {
+table.main {
 	width: 75%;
+}
+
+table.sub {
+	width: 90%
 }
 
 table.center {
