@@ -7,14 +7,19 @@
 
 body {
 	background-color: #85C2FF;
+	text-align:center;
 
 }
 
-table [
-	width: 75%; align: center;
-]
+table {
+	width: 75%;
+}
 
-
+table.center {
+	margin-left:auto; 
+        margin-right:auto;
+  }
+	
 #page-wrap {
      
 	width: 800px;
