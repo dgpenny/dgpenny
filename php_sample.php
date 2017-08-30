@@ -11,6 +11,7 @@ for ($x = 0; $x <= 100; $x++) {
 } 
 ?>
 <br>
+<?php
 function myAge($birthYear) {                                  // defines a function, this one is named "myAge"
     $yearsOld = date('Y') - $birthYear;                       // calculates the age
     return $yearsOld . ' year' . ($yearsOld != 1 ? 's' : ''); // returns the age in a descriptive form
@@ -19,7 +20,9 @@ function myAge($birthYear) {                                  // defines a funct
 echo 'I am currently ' . myAge(1981) . ' old.';               // outputs the text concatenated
                                                               // with the return value of myAge()
 // As the result of this syntax, myAge() is called.
+?>
 <br>
+<?php
 class Person
 {
     public $firstName;
@@ -54,6 +57,7 @@ echo $other->greet(); // prints "Hello, my name is iAmine."
 echo '<br />';
 
 echo Person::staticGreet('Jane', 'Doe'); // prints "Hello, my name is Jane Doe."
+?>
 <br>
     </body>
 </html>
