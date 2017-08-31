@@ -21,7 +21,7 @@ table.main:hover {
 	color: red;
 }
 
-p.main2:hover {
+main2:hover {
 	text-align: right;
 	color: blue;
 }
