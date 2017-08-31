@@ -18,6 +18,7 @@ table.main {
 }
 
 table.main:hover {
+	text-align: left;
 	color: red;
 }
 
