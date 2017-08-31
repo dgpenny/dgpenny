@@ -23,6 +23,7 @@ table.main:hover {
 
 p.main2:hover {
 	text-align: right;
+	color: blue;
 }
 
 table.sub {
