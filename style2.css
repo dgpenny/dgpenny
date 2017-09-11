@@ -1,0 +1,150 @@
+/* created: 09.07.2017 */
+
+/* updated: 09.07.2017 */
+
+/* css2 for resume */
+
+
+body {
+	background-color: #4D4D4D;
+	text-align:center;
+	color: #000000; 
+
+}
+
+table.main {
+	width: 70%;
+	margin-left:15%; 
+    margin-right:15%;
+        
+}
+
+.main:hover {
+	color: #FFFFFF;
+}
+
+table.sub {
+	width: 90%;
+	margin-left:5%; 
+    margin-right:5%;
+}
+
+/*
+table.center {
+	margin-left:auto; 
+        margin-right:auto;
+  }
+*/
+
+#page-wrap {
+    width: 800px;
+ 	margin: 0 auto;
+}
+
+
+
+/* unvisited link */
+
+a:link {
+    color: #000000;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: Arial, Helvetica;
+}
+
+
+
+/* mouse over link */
+
+a:hover {
+    color: #FF0000;
+	background-color: ;
+	font-weight: ;
+}
+
+
+
+.outline {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #FF0000;
+	border: 2px dotted;
+	
+
+}
+
+
+
+td.personal {
+	background-color: #FFFFFF; 
+	border-style: ridge;
+	border-radius: 5px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	font-family: Arial, Helvetica;
+	height: 100px; 
+	width: 320px;
+}
+
+
+.title {
+	width: 200px;
+	height: 25px;
+	/*background-color: #C2E0FF;
+	background-color: #; */	
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: Arial, Helvetica;
+	/*border: 1px solid;
+*/	
+	text-align: left;
+}
+
+
+
+td {
+	background-color: #FFFFFF; 
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: Arial, Helvetica;
+	padding-left: 10px;
+	border-style: ridge;
+	height: 150px; 
+	width: 650px;
+}
+
+
+
+td:hover {
+	background-color: #000000;
+}
+
+
+#copy1 {
+	font-size: 8px;
+	font-family: Arial, Helvetica;
+	border-radius: 0px;
+	border: 0px;
+	background-color: #85C2FF;
+	width: 200px;
+	height: 25px;
+}
+
+#copy2 {
+	font-size: 8px;
+	font-family: Arial, Helvetica;
+	border-radius: 0px;
+	border: 0px;
+	background-color: #85C2FF;
+	width: 200px;
+	height: 25px;
+}
+
+iframe:focus { 
+    outline: none;
+}
+
+iframe[seamless] { 
+    display: block;
+}
