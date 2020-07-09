@@ -20,12 +20,21 @@ div#fixedheader2 {
 	background:#FF0000;
 	height:25px;
 }
-div#fixedfooter {
+div#fixedfooter1 {
+	position:fixed;
+	bottom:25px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#FF0000;
+	height:15px;
+}
+div#fixedfooter2 {
 	position:fixed;
 	bottom:0px;
 	left:0px;
 	width:100%;
 	color:#CCC;
 	background:#0404B4;
-	padding:15px;
+	height:25px;
 }
