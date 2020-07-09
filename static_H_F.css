@@ -1,6 +1,6 @@
 body {
 	background-color: #CCC;
-	margin:100px 100px 100px 100px;
+	margin:100px 100px 120px 120px;
 }
 div#fixedheader1 {
 	position:fixed;
@@ -9,7 +9,7 @@ div#fixedheader1 {
 	width:100%;
 	color:#CCC;
 	background:#0404B4;
-	padding:25px;
+	padding:20px;
 }
 div#fixedheader2 {
 	position:fixed;
@@ -18,7 +18,7 @@ div#fixedheader2 {
 	width:100%;
 	color:#CCC;
 	background:#FF0000;
-	padding:12.5px;
+	padding:10px;
 }
 div#fixedfooter {
 	position:fixed;
