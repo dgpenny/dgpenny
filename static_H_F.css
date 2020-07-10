@@ -38,3 +38,12 @@ div#fixedfooter2 {
 	background:#0404B4;
 	height:25px;
 }
+div#link menu a {
+	text-align:center;
+	color:F2F2F2;
+}
+div#link menu a:hover {
+	background-color:#DDD;
+	color:black;
+}
+	
