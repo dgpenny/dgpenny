@@ -41,6 +41,10 @@ div#fixedfooter2 {
 div#link_menu a {
 	text-align:center;
 	color:F2F2F2;
+	float: left;
+  	padding: 14px 16px;
+ 	text-decoration: none;
+        font-size: 17px;
 }
 div#link_menu a:hover {
 	background-color:#DDD;
